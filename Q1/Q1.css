@@ -1,0 +1,102 @@
+/* Reset some default styles */
+/* Reset margin and padding for body, h1, h2, and p elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+    /* Set the font family for the entire page */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* Set the background color for the body */
+    background-color: #f5f5f5;
+    
+    /* Center-align text within the body */
+    text-align: center;
+    
+    /* Add padding around the body content */
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    /* Set the font size for the main heading */
+    font-size: 28px;
+    
+    /* Set the text color for the main heading */
+    color: #333;
+    
+    /* Add margin at the bottom of the main heading */
+    margin-bottom: 20px;
+}
+
+/* Style the file input label */
+label {
+    /* Display the label as a block-level element */
+    display: block;
+    
+    /* Add padding around the label */
+    padding: 10px 20px;
+    
+    /* Set the background color for the label */
+    background-color: #3498db;
+    
+    /* Set the text color for the label */
+    color: #fff;
+    
+    /* Add rounded corners to the label */
+    border-radius: 5px;
+    
+    /* Change the cursor to a pointer when hovering over the label */
+    cursor: pointer;
+    
+    /* Add a smooth transition effect for background color changes */
+    transition: background-color 0.3s;
+    
+    /* Center the label horizontally and add margin at the bottom */
+    margin: 0 auto 20px;
+    
+    /* Limit the maximum width of the label */
+    max-width: 200px;
+}
+
+/* Style the label when hovered */
+label:hover {
+    /* Change the background color on hover */
+    background-color: #2980b9;
+}
+
+/* Style the image preview section */
+h2 {
+    /* Set the font size for the secondary heading */
+    font-size: 24px;
+    
+    /* Set the text color for the secondary heading */
+    color: #333;
+    
+    /* Add margin at the top of the secondary heading */
+    margin-top: 20px;
+}
+
+/* Style the image preview */
+img#imagePreview {
+    /* Ensure the image doesn't exceed its container width */
+    max-width: 100%;
+    
+    /* Display the image as a block element for centering */
+    display: block;
+    
+    /* Center the image horizontally */
+    margin: 0 auto;
+    
+    /* Add margin at the top of the image */
+    margin-top: 20px;
+    
+    /* Add a border around the image */
+    border: 3px solid #3498db;
+    
+    /* Add rounded corners to the image */
+    border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="Q4.css">
+</head>
+<body>
+    <!-- Container to center-align content -->
+    <div class="container">
+        <!-- Main heading -->
+        <h1>Form Validation</h1>
+        <br>
+        <!-- Form for input fields and validation -->
+        <form id="validationForm">
+            <!-- Label and input field for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Minimum 3 Characters" required minlength="3">
+            
+            <!-- Label and input field for password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Minimum 8 Characters" required minlength="8">
+            
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- Include the external JavaScript file for functionality -->
+    <script src="Q4.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* Reset some default styles */
+body, .container {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121050; /* Initial background color */
+    transition: background-color 1s; /* Smooth transition for background color change */
+}
+
+/* Style for the clock display */
+#clock {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    color: #fff;
+    
+}
+
+#color {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    
+}
